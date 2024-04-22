@@ -6,7 +6,7 @@ jobs:
   rspec:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         ruby-version:
           - 2.6
